@@ -85,7 +85,7 @@ class PSA_AGP_DC(object):
         elif '' not in self.Align_s:
             return 0
         else:
-            i = (a + b) // 2  # //取整除
+            i = (a + b) // 2  # //用于取整除
             # dimension: d-c
             pref_a, pref_b, pref_c = self.BestScore(x1, self.A[a:i], self.B[c:d])
             t_rev = self.B[c:d][::-1]
