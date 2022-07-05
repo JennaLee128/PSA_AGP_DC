@@ -22,7 +22,7 @@ class PSA_AGP_DC(object):
         self.traceback()
 
     def BestScore(self, x, s, t):
-        # compute the sp score of two seqs  计算记录矩阵
+        # compute the sp score of two seqs 计算记录矩阵
         m = len(s)
         n = len(t)
         a = [0] * (n + 1)
