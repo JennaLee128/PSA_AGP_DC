@@ -99,7 +99,7 @@ class PSA_AGP_DC(object):
             typemax = '-'  # 标志
             Vmax = -float('Inf')  # 值
 
-            # find the best match (i,j) i from s, j from t   使用以上标志
+            # find the best match (i,j) i from s, j from t  使用以上标志
             for j in range(c, d):
                 maxpref = max(pref_a[j - c], pref_b[j - c], pref_c[j - c])
                 maxsuff = max(suff_a[j + 1 - c], suff_b[j + 1 - c], suff_c[j + 1 - c])
